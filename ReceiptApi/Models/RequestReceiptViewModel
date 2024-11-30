@@ -1,0 +1,12 @@
+namespace ReceiptApi.Models;
+public class RequestReceiptViewModel{
+    public string retailer {get; set;}
+    public DateTime purchaseDate {get; set;}
+    public DateTime purchaseTime {get; set;}
+    public List<Item> items {get; set;}
+    public decimal total {get; set;}
+}
+public class Item{
+    public string shortDescription {get; set;}
+    public decimal price {get; set;} 
+}

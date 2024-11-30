@@ -1,0 +1,6 @@
+@ReceiptApi_HostAddress = http://localhost:5115
+
+GET {{ReceiptApi_HostAddress}}/
+Accept: application/json
+
+###
